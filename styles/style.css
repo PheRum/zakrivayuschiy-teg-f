@@ -196,15 +196,12 @@
     max-inline-size: 696px;
 }
 
-.card__header {
-    padding: 4px 10px;
-    border-block-end: 2px solid var(--text-color, #000000);
-}
-
 .card__title {
     font-size: 18px;
     line-height: normal;
+    padding: 4px 10px;
     font-variation-settings: "wght" var(--headings-font-weight, 700);
+    border-block-end: 2px solid var(--text-color, #000000);
 }
 
 .card__img-wrapper {
@@ -268,6 +265,12 @@
 
 .card__icon-button:focus-visible {
     border-color: var(--text-color, #000000);
+}
+
+.card__like-button {
+    display: grid;
+    width: 118px;
+    place-content: center;
 }
 
 .button {
