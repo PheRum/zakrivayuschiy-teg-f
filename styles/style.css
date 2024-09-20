@@ -86,6 +86,11 @@
     gap: 16px;
 }
 
+.modal__content-body {
+    font-size: 14px;
+    font-style: normal;
+}
+
 .modal__icon {
     flex-shrink: 0;
     inline-size: 39px;
